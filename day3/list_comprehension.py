@@ -1,10 +1,6 @@
 numbers = [1,2,3,4,5,6]
 
-def square(number=0):
-    sq = number**2
-    return sq
-
-squares = [number**2 for number in numbers]    
+squares = [number**2 for number in numbers]
 print(squares)
 
 squares_less_than_4 = [number**2 for number in numbers if number<4]
